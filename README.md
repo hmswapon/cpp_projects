@@ -1,4 +1,4 @@
-# 📁💻 C++ Projects Collection
+# 📁💻 C++ Projects
 
 A well-structured collection of **C++ console-based projects** developed for learning, practice, and skill improvement.
 
@@ -37,9 +37,9 @@ The main goal of this repository is to build strong fundamentals in C++ programm
 Each folder contains a separate project:
 
 ```bash id="structure"
-cpp-projects-collection/
+cpp-projects/
 │
-├── contact_manager/
+├── contact_management/
 ├── calculator/
 ├── student_system/
 └── other_projects/
