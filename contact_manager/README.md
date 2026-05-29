@@ -1,21 +1,21 @@
 # 📞 Contact Management System (C++)
 
-A simple yet powerful **console-based Contact Management System** built using **C++ programming language** with file handling. This project demonstrates real-world CRUD operations (Create, Read, Update, Delete) and basic data management using text files.
+A simple console-based Contact Management System built using C++ and file handling. This project demonstrates real-world CRUD operations and basic data management using text files.
 
 ---
 
 ## 🧠 Overview
 
-This application allows users to store, manage, and organize contact information efficiently. All data is saved in a local file (`data.txt`), ensuring that contacts remain stored even after the program is closed.
+This project is a menu-driven console application that allows users to efficiently manage contact information such as names and phone numbers.
 
-It is designed as a **menu-driven console application** to make it easy to use and understand.
+All data is stored in a local file (`data.txt`), ensuring that contacts remain saved even after the program is closed.
 
 ---
 
 ## ⚙️ Features
 
-✔ Add new contact (Name & Phone Number)
-✔ Display all saved contacts
+✔ Add new contact (Name & Number)
+✔ Show all saved contacts
 ✔ Search contact by name or number
 ✔ Update existing contact information
 ✔ Delete individual contact
@@ -23,6 +23,17 @@ It is designed as a **menu-driven console application** to make it easy to use a
 ✔ Prevent duplicate name or number entries
 ✔ Input validation for safe user interaction
 ✔ Persistent data storage using file handling
+
+---
+
+## 📁 Project Structure
+
+```bash id="structure1"
+contact_management/
+│
+├── main.cpp   # Main source code of the application
+└── data.txt   # Stores all contact data
+```
 
 ---
 
@@ -42,21 +53,18 @@ g++ main.cpp -o contact_app
 
 ---
 
-## 📁 Project Structure
+## 💡 Alternative (Run from outside folder)
 
-```bash id="structure1"
-contact_manager/
-│
-├── main.cpp       # Main source code
-├── data.txt       # Stores contact information
-└── README.md      # Project documentation
+```bash id="alt1"
+g++ contact_management/main.cpp -o contact_app
+./contact_app
 ```
 
 ---
 
 ## 🗂️ Data Storage Format
 
-All contacts are stored in a text file in the following format:
+Contacts are stored in the following format inside `data.txt`:
 
 ```id="format1"
 Name    Number
@@ -65,32 +73,33 @@ Name    Number
 ### Example:
 
 ```id="example1"
-Hm Swapon  017XXXXXXXX
+Hm swapon  017XXXXXXXX
 Trisha   018XXXXXXXX
 ```
 
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Learning Outcomes
 
 This project helps to understand:
 
 * File handling in C++
 * CRUD operations implementation
 * Menu-driven console applications
-* String manipulation
-* Input validation techniques
-* Real-world problem solving
+* String manipulation techniques
+* Input validation handling
+* Real-world mini project development
 
 ---
 
-## 💡 Future Improvements
+## 🚀 Future Improvements
 
 * Add GUI using Qt framework
-* Store data in database (MySQL / SQLite)
-* Add contact groups (Family, Friends, Work)
-* Add sorting and advanced search system
+* Integrate database (MySQL / SQLite)
+* Add contact categories (Family, Friends, Work)
+* Add advanced search & sorting system
 * Add password protection system
+* Export contacts to CSV/PDF
 
 ---
 
