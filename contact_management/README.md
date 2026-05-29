@@ -115,4 +115,4 @@ This project helps to understand:
 ## 👨‍💻 Author
 
 **Md Harun Or Rashid Swapon**
-C++ Developer | Computer Engineering Student
+C++ Programmer | Competitive Programmer | Problem Solver
