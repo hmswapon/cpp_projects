@@ -12,17 +12,26 @@ All data is stored in a local file (`data.txt`), ensuring that contacts remain s
 
 ---
 
+
+
 ## ⚙️ Features
 
-✔ Add new contact (Name & Number)
-✔ Show all saved contacts
-✔ Search contact by name or number
-✔ Update existing contact information
-✔ Delete individual contact
-✔ Delete all contacts at once
-✔ Prevent duplicate name or number entries
-✔ Input validation for safe user interaction
-✔ Persistent data storage using file handling
+### 📌 Core Functions
+- Add new contact (Name & Number)
+- Show all saved contacts
+- Search contact by name or number
+
+### ✏️ Management
+- Update existing contact information
+- Delete individual contact
+- Delete all contacts at once
+
+### 🔒 Safety & Validation
+- Prevent duplicate name or number entries
+- Input validation for safe user interaction
+
+### 💾 Data Handling
+- Persistent data storage using file handling
 
 ---
 
