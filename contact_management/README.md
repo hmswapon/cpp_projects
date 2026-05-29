@@ -12,32 +12,34 @@ All data is stored in a local file (`data.txt`), ensuring that contacts remain s
 
 ---
 
-
-
 ## ⚙️ Features
 
 ### 📌 Core Functions
-- Add new contact (Name & Number)
-- Show all saved contacts
-- Search contact by name or number
+
+* Add new contact (Name & Number)
+* Show all saved contacts
+* Search contact by name or number
 
 ### ✏️ Management
-- Update existing contact information
-- Delete individual contact
-- Delete all contacts at once
+
+* Update existing contact information
+* Delete individual contact
+* Delete all contacts at once
 
 ### 🔒 Safety & Validation
-- Prevent duplicate name or number entries
-- Input validation for safe user interaction
+
+* Prevent duplicate name or number entries
+* Input validation for safe user interaction
 
 ### 💾 Data Handling
-- Persistent data storage using file handling
+
+* Persistent data storage using file handling
 
 ---
 
 ## 📁 Project Structure
 
-```bash id="structure1"
+```bash id="structure_final"
 contact_management/
 │
 ├── main.cpp   # Main source code of the application
@@ -50,13 +52,13 @@ contact_management/
 
 ### Step 1: Compile the program
 
-```bash id="compile1"
+```bash id="compile_final"
 g++ main.cpp -o contact_app
 ```
 
 ### Step 2: Run the program
 
-```bash id="run1"
+```bash id="run_final"
 ./contact_app
 ```
 
@@ -64,7 +66,7 @@ g++ main.cpp -o contact_app
 
 ## 💡 Alternative (Run from outside folder)
 
-```bash id="alt1"
+```bash id="alt_final"
 g++ contact_management/main.cpp -o contact_app
 ./contact_app
 ```
@@ -75,22 +77,20 @@ g++ contact_management/main.cpp -o contact_app
 
 Contacts are stored in the following format inside `data.txt`:
 
-```id="format1"
+```text id="format_final"
 Name    Number
 ```
 
 ### Example:
 
-```id="example1"
-Hm swapon  017XXXXXXXX
-Trisha   018XXXXXXXX
+```text id="example_final"
+Hm Swapon  017XXXXXXXX
+Trisha     018XXXXXXXX
 ```
 
 ---
 
 ## 🎯 Learning Outcomes
-
-This project helps to understand:
 
 * File handling in C++
 * CRUD operations implementation
@@ -116,4 +116,3 @@ This project helps to understand:
 
 **Md Harun Or Rashid Swapon**
 C++ Programmer | Competitive Programmer | Problem Solver
-
