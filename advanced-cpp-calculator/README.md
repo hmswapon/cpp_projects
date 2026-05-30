@@ -1,126 +1,117 @@
-````md id="final_readme_cpp_calc"
-# 🧮 Advanced C++ Calculator
+🧮 Advanced C++ Calculator
 
-A feature-rich console-based calculator built using C++.  
-This project demonstrates core programming concepts such as input validation, file handling, mathematical operations, and structured menu design.
+A feature-rich console-based calculator built using C++ and file handling. This project demonstrates real-world mathematical operations, input validation, and data persistence using text files.
 
 ---
 
-## ⚙️ Features
+🧠 Overview
 
-### 🔢 Basic Operations
+This project is a menu-driven console application that allows users to perform basic, scientific, and trigonometric calculations efficiently.
+
+All calculation history is stored in a local file (data.txt), ensuring results are saved even after closing the program.
+
+---
+
+⚙️ Features
+
+📌 Core Functions
 - Addition (+)
 - Subtraction (-)
 - Multiplication (*)
 - Division (/)
 - Modulus (%)
 
-### 🔬 Scientific Operations
+🔬 Scientific Operations
 - Square Root (√)
 - Power (x^y)
 - Percentage (%)
 - Average
 - Factorial (!)
 
-### 📐 Trigonometry Functions
+📐 Trigonometry Functions
 - Sine (sin)
 - Cosine (cos)
 - Tangent (tan)
 
-### 📊 Logarithmic Function
+📊 Logarithmic Function
 - Logarithm (log)
 
-### 📜 History System
-- Stores all calculations in `data.txt`
-- View calculation history anytime
-- Clear history option
+📜 History System
+- Store all calculations in `data.txt`
+- View full calculation history
+- Clear history anytime
 
-### 🧠 Last Answer Feature
-- Stores last computed result
-- Reuse previous result anytime
+🧠 Extra Features
+- Show last calculated result
+- Reuse previous answer
+- Continuous calculation menu system
 
-### ⚠️ Input Validation & Error Handling
-- Accepts only valid numeric input
-- Handles invalid input safely
-- Prevents program crash
+🔒 Safety & Validation
+- Input validation for numbers only
+- Prevent invalid operations
 - Division by zero protection
-
-### 🔁 Menu System
-- Structured category-based menu
-- Loop-based navigation
-- Exit only when user selects 0
+- Error-safe user interaction
 
 ---
 
-## 🏗️ Project Structure
+📁 Project Structure
 
 cpp-calculator/
 │
-├── main.cpp
-├── data.txt
-└── README.md
+├── main.cpp   # Main source code of the calculator
+├── data.txt   # Stores calculation history
+└── README.md  # Project documentation
 
 ---
 
-## ⚙️ How to Run
+🚀 How to Run
 
-### 📥 Clone Repository
-```bash
-git clone https://github.com/your-username/cpp-calculator.git
-````
-
-### 📂 Open Project
-
-```bash
-cd cpp-calculator
-```
-
-### 🛠️ Compile
-
-```bash
+Step 1: Compile the program
 g++ main.cpp -o calculator
-```
 
-### ▶️ Run
-
-Windows:
-
-```bash
-calculator.exe
-```
-
-Linux / Mac:
-
-```bash
+Step 2: Run the program
 ./calculator
-```
+
+💡 Alternative (Run from outside folder)
+g++ cpp-calculator/main.cpp -o calculator
+./calculator
 
 ---
 
-## 📊 Example Usage
+🗂️ Data Storage Format
 
-Select Option: 1
-Enter first number: 10
-Enter second number: 5
-Result: 15
+All calculations are stored in `data.txt` in the following format:
 
----
-
-## 🔮 Future Improvements
-
-* Expression parser (e.g., 5+3*2)
-* GUI version using Qt or SFML
-* Advanced statistics system
-* Theme-based console UI
-* Multi-session history system
+Example:
+10 + 5 = 15  
+20 / 4 = 5  
+5 * 6 = 30  
 
 ---
 
-## 👨‍💻 Author
+🎯 Learning Outcomes
 
-Hm Swapon
-Computer Engineer | C++ Developer
+- File handling in C++
+- Menu-driven console application design
+- Implementation of scientific calculations
+- Input validation and error handling
+- Real-world mini project development
+- Structuring large switch-case systems
 
-```
+---
 
+🚀 Future Improvements
 
+- Expression parser (e.g., 5+3*2)
+- GUI version using Qt or SFML
+- Advanced statistics system
+- Theme-based console UI
+- Memory functions (M+, M-, MR, MC)
+- Multi-session history tracking
+
+---
+
+👨‍💻 Author
+
+Hm Swapon  
+Computer Engineer | C++ Developer | Problem Solver
