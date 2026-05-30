@@ -1,117 +1,142 @@
-🧮 Advanced C++ Calculator
+# 🧮 Advanced C++ Calculator
 
-A feature-rich console-based calculator built using C++ and file handling. This project demonstrates real-world mathematical operations, input validation, and data persistence using text files.
-
----
-
-🧠 Overview
-
-This project is a menu-driven console application that allows users to perform basic, scientific, and trigonometric calculations efficiently.
-
-All calculation history is stored in a local file (data.txt), ensuring results are saved even after closing the program.
+A simple console-based Advanced Calculator built using C++ and file handling. This project demonstrates real-world mathematical operations, scientific functions, and data storage using text files.
 
 ---
 
-⚙️ Features
+## 🧠 Overview
 
-📌 Core Functions
+This project is a menu-driven console application that allows users to perform basic, scientific, trigonometric, and logarithmic calculations efficiently.
+
+All calculation results are stored in a local file (`data.txt`), ensuring that history remains saved even after the program is closed.
+
+---
+
+## ⚙️ Features
+
+### 📌 Basic Operations
 - Addition (+)
 - Subtraction (-)
 - Multiplication (*)
 - Division (/)
 - Modulus (%)
 
-🔬 Scientific Operations
+---
+
+### 🔬 Scientific Operations
 - Square Root (√)
 - Power (x^y)
+- Factorial (!)
 - Percentage (%)
 - Average
-- Factorial (!)
 
-📐 Trigonometry Functions
+---
+
+### 📐 Trigonometry Functions
 - Sine (sin)
 - Cosine (cos)
 - Tangent (tan)
 
-📊 Logarithmic Function
+---
+
+### 📊 Logarithmic Function
 - Logarithm (log)
-
-📜 History System
-- Store all calculations in `data.txt`
-- View full calculation history
-- Clear history anytime
-
-🧠 Extra Features
-- Show last calculated result
-- Reuse previous answer
-- Continuous calculation menu system
-
-🔒 Safety & Validation
-- Input validation for numbers only
-- Prevent invalid operations
-- Division by zero protection
-- Error-safe user interaction
 
 ---
 
-📁 Project Structure
+### 📜 History System
+- Store all calculations in `data.txt`
+- View full history anytime
+- Clear history anytime
+
+---
+
+### 🧠 Extra Features
+- Show last calculated result
+- Reuse previous answer
+- Continuous menu-based system
+
+---
+
+### 🔒 Safety & Validation
+- Accept only valid numeric input
+- Prevent invalid operations
+- Division by zero protection
+- Safe user interaction
+
+---
+
+## 📁 Project Structure
+
+```
 
 cpp-calculator/
 │
-├── main.cpp   # Main source code of the calculator
-├── data.txt   # Stores calculation history
-└── README.md  # Project documentation
+├── main.cpp
+├── data.txt
+└── README.md
+
+````
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
 
-Step 1: Compile the program
+### Compile
+```bash
 g++ main.cpp -o calculator
+````
 
-Step 2: Run the program
+### Run
+
+```bash
 ./calculator
+```
 
-💡 Alternative (Run from outside folder)
+---
+
+## 💡 Alternative Run
+
+```bash
 g++ cpp-calculator/main.cpp -o calculator
 ./calculator
+```
 
 ---
 
-🗂️ Data Storage Format
+## 🗂️ Data Storage Format
 
-All calculations are stored in `data.txt` in the following format:
-
-Example:
-10 + 5 = 15  
-20 / 4 = 5  
-5 * 6 = 30  
+```
+10 + 5 = 15
+20 / 4 = 5
+```
 
 ---
 
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
-- File handling in C++
-- Menu-driven console application design
-- Implementation of scientific calculations
-- Input validation and error handling
-- Real-world mini project development
-- Structuring large switch-case systems
-
----
-
-🚀 Future Improvements
-
-- Expression parser (e.g., 5+3*2)
-- GUI version using Qt or SFML
-- Advanced statistics system
-- Theme-based console UI
-- Memory functions (M+, M-, MR, MC)
-- Multi-session history tracking
+* File handling in C++
+* Menu-driven program design
+* Scientific calculations implementation
+* Input validation handling
+* Real-world project experience
+* Structured programming practice
 
 ---
 
-👨‍💻 Author
+## 🚀 Future Improvements
 
-Hm Swapon  
+* Expression parser (5+3*2)
+* GUI version using Qt or SFML
+* Advanced statistics system
+* Theme-based console UI
+* Multi-session history tracking
+* Memory system (M+, M-, MR, MC)
+
+---
+
+## 👨‍💻 Author
+
+Hm Swapon
 Computer Engineer | C++ Developer | Problem Solver
+
