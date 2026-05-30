@@ -137,6 +137,7 @@ g++ cpp-calculator/main.cpp -o calculator
 
 ## 👨‍💻 Author
 
-Hm Swapon
-Computer Engineer | C++ Developer | Problem Solver
+**Md Harun Or Rashid Swapon**
+
+C++ Programmer | Competitive Programmer | Problem Solver
 
